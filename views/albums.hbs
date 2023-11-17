@@ -1,0 +1,16 @@
+ <div id="search-results-container">
+         <h2>Albums</h2>
+        {{#each album}}
+          <div id="artist-wrapper">
+               {{#each images}}
+                 <img src={{url}} alt="artist image" width="300" height="300" >
+               {{/each}}
+             <h3 id="artist-name">{{name}}</h3>
+              <p id="link-para">
+                <a href='/tracks/{{id}}' id="view-album-link">View Tracks</a>
+              </p>
+          </div>
+         {{/each}}
+
+   
+</div>

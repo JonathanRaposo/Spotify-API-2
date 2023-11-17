@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+#homePage-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/homePage-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative
+    
+}
+
+#form-wrapper{
+    width: 500px;
+    height: 150px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.3) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+ 
+}
+
+#search-form input {
+    width: 300px;
+    padding: 6px;
+    font-family: 'Poppins' , sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    outline: none;
+}
+
+#search-btn{
+  
+    display: block;
+    margin: 10px auto auto auto;
+    min-width: 100px;
+    padding: 4px 8px;
+    font-family: 'Poppins' , sans-serif;
+    border: none;
+    border-radius: 2px;
+    background-color: #e74e4e;
+    color: #fff;
+
+}
+#error-message{
+    text-align: center;
+    color: #b60000;
+}
+#search-results-container{
+    text-align: center;
+}
+#artist-name{
+    margin-left: 20px;
+}
+#link-para{
+   width: 130px;
+   margin: 20px auto;
+   padding: 4px;
+   border-radius: 4px;
+   text-align: center;
+   background-color: #e74e4e;
+   color: #fff;
+
+}
+#view-album-link{
+    text-decoration: none;
+    color:  #fff;
+}
+/* #track-container{
+    text-align: center;
+} */
+/* #track-name{
+    display: inline-block;
+} */
+
+#track-container #headings {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #313131;
+    color: #fff;
+}
+#headings h2 {
+    padding: 10px;
+    margin: 10px;
+}
+#headings #listen-heading{
+    padding-right: 130px;
+}
+#track-wrapper{
+    margin-bottom: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ccc;
+
+}

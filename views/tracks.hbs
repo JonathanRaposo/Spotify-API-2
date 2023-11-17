@@ -1,0 +1,16 @@
+ <div id="track-container">
+
+     <div id="headings">
+          <h2>Title</h2>
+         <h2 id="listen-heading">listen</h2>
+     </div>
+  {{#each track}}
+      
+      <div id="track-wrapper">
+        <h4 id="track-name">{{name}}</h4>
+        <audio controls src={{preview_url}}>
+            {{!-- <a href={{preview_url}}></a> --}}
+        </audio>
+      </div>
+   {{/each}}
+</div>
